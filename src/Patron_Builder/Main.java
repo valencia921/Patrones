@@ -1,7 +1,12 @@
 package Patron_Builder;
 
+import java.util.ArrayList;
+import java.util.Arrays;
+
 public class Main {
     public static void main(String[] args) {
+
+
 
         Vehiculo coche = new VehiculoBuilder("MAZDA")
                 .setmotor("v8")
@@ -13,4 +18,7 @@ public class Main {
         System.out.println("Puertas: "+ coche.getPuertas());
 
     }
+
+
+
 }
